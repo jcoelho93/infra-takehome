@@ -10,5 +10,13 @@ terraform {
       source  = "cyrilgdn/postgresql"
       version = "~> 1.26"
     }
+    kubernetes = {
+      source  = "hashicorp/kubernetes"
+      version = "~> 3.0"
+    }
+    random = {
+      source  = "hashicorp/random"
+      version = "~> 3.0"
+    }
   }
 }
